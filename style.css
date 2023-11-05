@@ -55,6 +55,14 @@ cursor: pointer;
     text-align: center;
     color: #fff;
 }
+.content2{
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+}
 .content h1{
     font-size: 70px;
     margin-top: 80px;
