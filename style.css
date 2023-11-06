@@ -163,3 +163,40 @@ button:hover{
     bottom: 0;
     width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .banner {
+        height: auto;
+        width: auto;
+    }
+
+    .content h1 {
+        font-size: 36px;
+        margin-top: 40px;
+    }
+    
+    .products {
+        width: auto;
+        height: auto;
+    }
+
+    .product-card {
+        height: auto;
+        width: auto;
+    }
+    
+    .image {
+        width: auto; 
+        height: auto; 
+        margin: 0 auto;
+    }
+}
