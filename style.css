@@ -9,6 +9,10 @@ body{
     margin : 0 auto;
     padding :20px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://i.ibb.co/DffFjT0/kekuatan-negara-dari-pengelolaan-tambang-agincourt-resources-perusahaan-pertambangan-indonesia-1.jpg);
     background-size: cover;
     background-position: center;
@@ -26,6 +30,12 @@ body{
 width: 300px;
 cursor: pointer;
 max-width: 100px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 .navbar ul li{
     list-style: none;
@@ -77,6 +87,12 @@ max-width: 100px;
     font-weight:  100;
     line-height: 25px;
 }
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
 button{
 width: 200px;
 padding: 15px 0;
@@ -106,7 +122,7 @@ button:hover span{
     width: 100%;
 
 }
-button:hover{
+.button-container button:hover{
     border: none;
 }
 .content h2{
@@ -158,6 +174,9 @@ button:hover{
         margin-bottom: 10px;
     }
     h2{
+        font-size: 30px;
+    margin-top: 30px;
+    padding: 20px;
         color:#fff
     }
 .video-container {
@@ -180,4 +199,39 @@ button:hover{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .content h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .content p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .button-container button {
+        width: 180px;
+        margin: 10px 5px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        padding: 10px;
+    }
 }
