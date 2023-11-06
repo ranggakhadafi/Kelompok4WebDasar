@@ -1,10 +1,13 @@
-*{
+body{
     margin : 0;
     padding : 0;
     font-family: sans-serif;
 }
 .banner{
     width: 100%;
+    max-width : 1200px
+    margin : 0 auto;
+    padding :20px;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://i.ibb.co/DffFjT0/kekuatan-negara-dari-pengelolaan-tambang-agincourt-resources-perusahaan-pertambangan-indonesia-1.jpg);
     background-size: cover;
@@ -22,6 +25,7 @@
 .logo{
 width: 300px;
 cursor: pointer;
+max-width: 100px;
 }
 .navbar ul li{
     list-style: none;
@@ -54,6 +58,7 @@ cursor: pointer;
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
+    padding: 20px;
 }
 .content2{
     width: 100%;
@@ -107,6 +112,7 @@ button:hover{
 .content h2{
     font-size: 40px;
     margin-top: 50px;
+    padding: 20px;
 }
     
 .image{
